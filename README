@@ -1,0 +1,3 @@
+Simple implementation of a web view on Android to facilitate HTML apps.
+
+Just drop your HTML files in res/html and you're good to go.
