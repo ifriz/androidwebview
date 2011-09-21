@@ -25,10 +25,9 @@ public class WebViewActivity extends Activity {
         
         mWebView = (WebView) findViewById(R.id.webview);
         
-        WebSettings webSettings = mWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
+        mWebView.getSettings().setJavaScriptEnabled(true);
                 
-        mWebView.setWebChromeClient(null);
+        //mWebView.setWebChromeClient(null);
         
         // load URL
         mWebView.loadUrl("http://www.google.com/");
